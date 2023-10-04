@@ -38,7 +38,7 @@ user_settings = UserSettings(
         # Add more currency pairs and thresholds as needed
     }
 )
-'''
+
 3. Monitor Exchange Rates: The agent will continuously monitor exchange rates and trigger alerts when they cross the specified thresholds.
 
 4.Receive Notifications: When an alert is triggered, you will receive an email notification if configured.
