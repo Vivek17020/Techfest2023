@@ -8,7 +8,7 @@ if __name__== "__main__":
     currency_exchange_agent = CurrencyExchangeAgent()
 
     # Create a uagents.Agent instance
-    agent = Agent(name="currency_exchange_agent_wrapper", seed="2271d3282d8c8f2a49999e6b9e8a0fa277c458646415815090ccb3d93e7e9e94")
+    agent = Agent(name="currency_exchange_agent_wrapper", seed="your_seed_here")
 
     # Add your CurrencyExchangeAgent as a protocol to the uagents.Agent
     agent.include(currency_exchange_agent.exchange_protocol)
