@@ -1,5 +1,5 @@
 # Ignore Python cache files
-_pycache_/
+__pycache__/
 
 # Ignore environment-specific files
 .env
