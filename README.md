@@ -29,7 +29,7 @@ pip install -r requirements.txt
 python main.py
 
 2.Configure User Settings: Set your base currency and define currency pairs with alert thresholds in the main.py file. For example:
-'''
+
 user_settings = UserSettings(
     base_currency="USD",
     alert_thresholds={
