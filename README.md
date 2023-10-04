@@ -14,8 +14,7 @@ The Currency Exchange Monitor & Alert Agent is a Python-based application that a
 
 ## Installation
 
-1. Clone this repository to your local machine:
-bash git clone https://github.com/Vivek17020/Techfest2023.git
+1. Clone this repository to your local machine: git clone https://github.com/Vivek17020/Techfest2023.git
 
 2.Install the required dependencies using pip:
 pip install -r requirements.txt
@@ -31,14 +30,14 @@ python main.py
 
 2.Configure User Settings: Set your base currency and define currency pairs with alert thresholds in the main.py file. For example:
 
-user_settings = UserSettings(
+'''user_settings = UserSettings(
     base_currency="USD",
     alert_thresholds={
         "USD-INR": (82.60, 82.55),
         "USD-EUR": (0.85, 0.80),
         # Add more currency pairs and thresholds as needed
     }
-)
+)'''
 3. Monitor Exchange Rates: The agent will continuously monitor exchange rates and trigger alerts when they cross the specified thresholds.
 
 4.Receive Notifications: When an alert is triggered, you will receive an email notification if configured.
